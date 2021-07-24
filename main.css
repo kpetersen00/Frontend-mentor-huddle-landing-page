@@ -82,6 +82,20 @@ footer .logo {
 .email:focus {
   outline: none;
 }
+.facebook,
+.instagram,
+.twitter {
+  color: hsl(207, 100%, 98%);
+}
+.twitter:hover {
+  color: #1da1f2;
+}
+.instagram:hover {
+  color: #125688;
+}
+.facebook:hover {
+  color: #4267b2;
+}
 /* ==========
 Formatting
 ========== */
