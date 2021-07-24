@@ -12,6 +12,20 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="main.css" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- END OF GOOGLE FONTS -->
     <title>Frontend Mentor | Huddle landing page with curved sections</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -28,17 +42,21 @@
   <body>
     <header>
       <img class="logo" src="images/logo.svg" alt="logo" />
-      <button class="start" type="button">Try it free</button>
+      <button class="try-it" type="button">Try it free</button>
+
+      <img
+        class="top-section1"
+        src="images/bg-section-top-mobile-1.svg"
+        alt=""
+      />
+      <h1 class="opener">Build The Community Your Fans Will Love</h1>
+      <p class="description">
+        Huddle re-imagines the way we build communities. You have a voice, but
+        so does your audience. Create connections with your users as you engage
+        in genuine discussion.
+      </p>
+      <button class="start" type="button">Get Started For Free</button>
     </header>
-    <img class="top-section1" src="images/bg-section-top-mobile-1.svg" alt="" />
-    <h1 class="opener">Build The Community Your Fans Will Love</h1>
-    <p class="description">
-      Huddle re-imagines the way we build communities. You have a voice, but so
-      does your audience. Create connections with your users as you engage in
-      genuine discussion.
-    </p>
-    <button class="start" type="button">Get Started For Free</button>
-    <img src="images/bg-section-top-mobile-1.svg" alt="" />
     <img
       class="illustration"
       src="images/screen-mockups.svg"
@@ -98,20 +116,27 @@
       <h1>Ready To Build Your Community?</h1>
       <button class="start" type="button">Get Started For Free</button>
     </div>
+    <img class="footer-top" src="images/bg-footer-top-mobile.svg" alt="" />
     <footer>
-      <h3>Newsletter</h3>
+      <h3>NEWSLETTER</h3>
       <p>
         To recieve tips on how to grow your community, sign up to our weekly
         newsletter. We’ll never send you spam or pass on your email address
       </p>
-      <button class="subscribe" type="submit">Subscribe</button>
-      <img src="images/logo.svg" alt="logo" />
+      <form action="" method="GET">
+        <input class="email" type="email" placeholder="Email@email.com" />
+        <input class="subscribe" type="submit" value="Subscribe" />
+      </form>
+      <!-- <button class="subscribe" type="submit">Subscribe</button> -->
+      <img class="logo" src="images/logo.svg" alt="logo" />
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla
         quam, hendrerit lacinia vestibulum a, ultrices quis sem.
       </p>
       <div class="contact">
-        <p class="phone">Phone: +1-543-123-4567</p>
+        <p class="phone">
+          <i class="fas fa-phone-alt"></i>Phone: +1-543-123-4567
+        </p>
         <p class="email">example@huddle.com</p>
       </div>
     </footer>

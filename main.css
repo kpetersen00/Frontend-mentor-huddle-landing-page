@@ -9,7 +9,6 @@
   margin: 0;
   padding: 0;
 }
-
 h1,
 h2,
 h3,
@@ -20,6 +19,77 @@ footer h3,
 footer p {
   text-align: left;
 }
-.mockups {
-  width: 80vw;
+/* ==========
+typography
+========== */
+
+h1,
+h2,
+h3 {
+  font-family: "poppins";
+}
+p,
+button {
+  font-family: "open sans";
+}
+/* ========
+coloring
+======== */
+body {
+  background-color: hsl(207, 100%, 98%);
+}
+h1,
+h2,
+h3,
+p {
+  color: hsl(192, 100%, 9%);
+}
+footer {
+  background-color: hsl(192, 100%, 9%);
+}
+footer p,
+footer h3 {
+  color: hsl(207, 100%, 98%);
+}
+footer .logo {
+  filter: invert(96%) sepia(41%) saturate(3456%) hue-rotate(179deg)
+    brightness(1000%) contrast(102%);
+}
+.try-it {
+  color: hsl(322, 100%, 66%);
+  border-color: hsl(322, 100%, 66%);
+}
+.try-it:hover {
+  color: hsl(321, 100%, 78%);
+  border-color: hsl(321, 100%, 78%);
+}
+.start,
+.subscribe {
+  background-color: hsl(322, 100%, 66%);
+  color: hsl(207, 100%, 98%);
+  border: none;
+}
+.start:hover,
+.subscribe:hover {
+  background-color: hsl(321, 100%, 78%);
+}
+.stat-detail {
+  color: gray;
+}
+.email:invalid {
+  border-color: hsl(0, 100%, 63%);
+}
+.email:focus {
+  outline: none;
+}
+/* ==========
+Formatting
+========== */
+
+header {
+  height: 100vh;
+}
+
+.footer-top {
+  margin-bottom: -4px;
 }
