@@ -1,0 +1,25 @@
+/* =============
+   Global Styles 
+   =============*/
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+  text-align: center;
+}
+footer h3,
+footer p {
+  text-align: left;
+}
+.mockups {
+  width: 80vw;
+}
