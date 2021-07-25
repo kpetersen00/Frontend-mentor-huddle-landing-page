@@ -9,6 +9,7 @@
   margin: 0;
   padding: 0;
 }
+
 h1,
 h2,
 h3,
@@ -44,6 +45,9 @@ p {
 }
 .start {
   font-weight: 600;
+}
+.title {
+  font-size: 1.3rem;
 }
 /* ========
 coloring
@@ -88,6 +92,9 @@ footer h3 {
 }
 .stat-detail {
   color: gray;
+}
+.email {
+  border-color: hsl(192, 100%, 9%);
 }
 .email:invalid {
   border-color: hsl(0, 100%, 63%);
@@ -138,12 +145,7 @@ header {
 .opener {
   margin-bottom: 20px;
 }
-.main-body {
-  padding: 0px 15px;
-}
-p {
-  margin: 10px;
-}
+
 .footer-top {
   margin-bottom: -4px;
 }
@@ -157,12 +159,62 @@ p {
   flex-direction: column;
   height: 50vh;
   width: 200px;
-  /* position: relative; */
   margin: auto;
 }
 .icon {
   width: 30px;
   position: relative;
   left: 10px;
-  /* top: 20px; */
+}
+section {
+  height: 100vh;
+}
+section .illustration {
+  margin-bottom: 80px;
+}
+.details {
+  margin: 14px;
+}
+
+.closing {
+  height: 100vh;
+}
+
+footer {
+  padding: 25px;
+}
+footer p {
+  line-height: 1.5rem;
+  margin-top: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.email {
+  width: 325px;
+  height: 3rem;
+  border-radius: 5px;
+}
+.subscribe {
+  align-self: flex-end;
+  padding: 12px 40px;
+  margin-top: 12px;
+  margin-bottom: 100px;
+  border-radius: 5px;
+}
+.footer-logo {
+  width: 210px;
+}
+.lorem {
+  margin-bottom: 50px;
+}
+.social-media {
+  margin: 30px 0;
+}
+
+.facebook,
+.instagram,
+.twitter {
+  font-size: 2rem;
 }

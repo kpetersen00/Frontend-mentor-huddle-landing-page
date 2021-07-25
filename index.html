@@ -26,16 +26,11 @@
       rel="stylesheet"
     />
     <!-- END OF GOOGLE FONTS -->
-    <!-- Icons   -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule=""
-      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"
-    ></script>
-    <!-- icons -->
+    <link
+      href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <title>Frontend Mentor | Huddle landing page with curved sections</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -87,48 +82,50 @@
         <p class="stat-detail">Messages Sent</p>
       </div>
 
-      <div class="grow-together">
+      <section>
         <img
           class="illustration"
           src="images/illustration-grow-together.svg"
           alt="grow Together"
         />
-        <h3>Grow Together</h3>
-        <p>
+        <h3 class="title">Grow Together</h3>
+        <p class="details">
           Generate meaningful discussions with your audience and build a strong,
           loyal community. Think of the insightful conversations you miss out on
           with a feedback form.
         </p>
-      </div>
+      </section>
+
       <img src="images/bg-section-bottom-mobile-1.svg" alt="" />
-      <div class="flowing-conversations">
+      <section>
         <img
           class="illustration"
           src="images/illustration-flowing-conversation.svg"
           alt=""
         />
-        <h3>Flowing Conversations</h3>
-        <p>
+        <h3 class="title">Flowing Conversations</h3>
+        <p class="details">
           You wouldn't paginate a conversation in real life, so why do it
           online? Our threads have just-in-time loading for a more natural flow.
         </p>
-      </div>
-      <div class="your-users">
+      </section>
+      <section>
         <img
           class="illustration"
           src="images/illustration-your-users.svg"
           alt=""
         />
-        <h3>Your Users</h3>
-        <p>
+        <h3 class="title">Your Users</h3>
+        <p class="details">
           It takes no time at all to integrate Huddle with your app's
           authentication solution. This means, once signed in to your app, your
           users can start chatting immediately.
         </p>
-      </div>
+      </section>
     </div>
     <!-- closing -->
     <div class="closing">
+      <img src="images/bg-section-bottom-mobile-2.svg" alt="" />
       <h1>Ready To Build Your Community?</h1>
       <button class="start" type="button">Get Started For Free</button>
     </div>
@@ -145,20 +142,23 @@
         <input class="subscribe" type="submit" value="Subscribe" />
       </form>
       <img class="footer-logo" src="images/logo.svg" alt="logo" />
-      <p>
+      <p class="lorem">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla
         quam, hendrerit lacinia vestibulum a, ultrices quis sem.
       </p>
-      <div class="contact">
-        <p class="phone">
-          <ion-icon name="call"></ion-icon> Phone: +1-543-123-4567
+      <div class="aobut">
+        <p class="contact-info">
+          <img class="contact-icon" src="images/icon-phone.svg" alt="" />
+          &nbsp;&nbsp; Phone: +1-543-123-4567
         </p>
-        <p class="email">
-          <ion-icon name="mail"></ion-icon> example@huddle.com
+
+        <p class="contact-info">
+          <img class="contact-icon" src="images/icon-email.svg" alt="" />
+          &nbsp;&nbsp; Example@huddle.com
         </p>
         <div class="social-media">
-          <a class="facebook" target="_blank" href="https://www.facebook.com/">
-            <ion-icon name="logo-facebook"></ion-icon
+          <a class="facebook" target="_blank" href="https://www.facebook.com/"
+            ><ion-icon name="logo-facebook"></ion-icon
           ></a>
           <a
             class="instagram"
