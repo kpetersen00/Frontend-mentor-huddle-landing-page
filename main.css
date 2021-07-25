@@ -24,16 +24,20 @@ typography
 ========== */
 
 h1,
-h2,
 h3 {
   font-family: "poppins";
 }
 p,
+h2,
 button {
   font-family: "open sans";
 }
 h1 {
   font-size: 1.75rem;
+}
+h2 {
+  font-size: 4rem;
+  font-weight: 700;
 }
 p {
   font-size: 0.95rem;
@@ -127,16 +131,38 @@ header {
   border-radius: 28px;
   border-width: 1px;
   padding: 5px 15px;
-  position: relative;
-  left: 100px;
-  bottom: 5px;
+  position: absolute;
+  right: 25px;
+  top: 15px;
 }
 .opener {
   margin-bottom: 20px;
 }
-/* .description {
-  margin-bottom: 50px;
-} */
+.main-body {
+  padding: 0px 15px;
+}
+p {
+  margin: 10px;
+}
 .footer-top {
   margin-bottom: -4px;
+}
+.illustration {
+  display: block;
+  width: 80vw;
+  margin: 25px auto;
+}
+.stats {
+  display: block;
+  flex-direction: column;
+  height: 50vh;
+  width: 200px;
+  /* position: relative; */
+  margin: auto;
+}
+.icon {
+  width: 30px;
+  position: relative;
+  left: 10px;
+  /* top: 20px; */
 }
