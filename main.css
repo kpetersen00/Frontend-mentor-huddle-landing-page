@@ -280,4 +280,33 @@ form {
     margin: 0;
     text-align: left;
   }
+  footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 0;
+  }
+  .footer-top {
+    width: 100%;
+  }
+  .about {
+    width: 320px;
+  }
+  .newsletter {
+    width: 630px;
+  }
+  .newsletter h3 {
+    font-size: 1.6rem;
+  }
+  .newsletter p {
+    width: 360px;
+    margin-bottom: 30px;
+  }
+  form {
+    display: block;
+  }
+  .email {
+    margin-right: 30px;
+  }
 }
