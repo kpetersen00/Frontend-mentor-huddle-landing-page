@@ -120,9 +120,15 @@ footer h3 {
 Formatting
 ========== */
 
-header {
+.top {
   margin: 20px 20px 0px 20px;
-  height: 100vh;
+  /* height: 100vh; */
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 20px;
 }
 .header-logo {
   width: 125px;
@@ -132,15 +138,12 @@ header {
   border-radius: 28px;
   padding: 15px 40px;
   width: 60vw;
-  margin: 50px auto;
+  margin: auto;
 }
 .try-it {
   border-radius: 28px;
   border-width: 1px;
   padding: 5px 15px;
-  position: absolute;
-  right: 25px;
-  top: 15px;
 }
 .opener {
   margin-bottom: 20px;
@@ -157,7 +160,7 @@ header {
 .stats {
   display: block;
   flex-direction: column;
-  height: 50vh;
+  /* height: 50vh; */
   width: 200px;
   margin: auto;
 }
@@ -166,20 +169,13 @@ header {
   position: relative;
   left: 10px;
 }
-section {
-  height: 100vh;
-}
+
 section .illustration {
   margin-bottom: 80px;
 }
 .details {
   margin: 14px;
 }
-
-.closing {
-  height: 100vh;
-}
-
 footer {
   padding: 25px;
 }
@@ -217,4 +213,23 @@ form {
 .instagram,
 .twitter {
   font-size: 2rem;
+}
+/* ===========
+   Media Query 
+   ===========*/
+@media (min-width: 720px) {
+  h1 {
+    font-size: 2.3rem;
+  }
+  .description {
+    display: block;
+    margin: auto;
+    width: 450px;
+  }
+  .start {
+    width: 325px;
+  }
+  .mobile {
+    display: none;
+  }
 }
