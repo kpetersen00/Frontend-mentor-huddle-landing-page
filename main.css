@@ -153,6 +153,7 @@ header {
 
 .footer-top {
   margin-bottom: -4px;
+  width: 100%;
 }
 .illustration {
   display: block;
@@ -286,9 +287,6 @@ form {
     justify-content: space-between;
     padding-left: 80px;
     padding-right: 0;
-  }
-  .footer-top {
-    width: 100%;
   }
   .about {
     width: 320px;
