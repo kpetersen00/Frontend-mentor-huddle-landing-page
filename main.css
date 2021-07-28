@@ -258,7 +258,7 @@ form {
   .your-users {
     display: flex;
     justify-content: space-evenly;
-    height: 400px;
+    /* height: 400px; */
   }
   .grow-together,
   .your-users {
