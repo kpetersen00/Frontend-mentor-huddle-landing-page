@@ -152,7 +152,7 @@ header {
 
 .footer-top {
   margin-bottom: -5px;
-  width: 100%;
+  width: 100vw;
 }
 .illustration {
   display: block;
@@ -189,9 +189,10 @@ form {
   flex-direction: column;
 }
 .email {
-  width: 325px;
+  width: 100%;
   height: 3rem;
   border-radius: 5px;
+  margin: auto;
 }
 .subscribe {
   align-self: flex-end;
@@ -257,7 +258,6 @@ form {
   .your-users {
     display: flex;
     justify-content: space-evenly;
-    /* height: 400px; */
   }
   .grow-together,
   .your-users {
